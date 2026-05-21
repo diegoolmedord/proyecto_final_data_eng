@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: main
+    database: airbyte_curso
+    schema: main
+    tables:
+      - name: wdi_paraguay_raw
+        description: "Datos macroeconómicos del Banco Mundial para Paraguay (WDI)."
+      - name: superficie_produccion_raw
+        description: "Datos de superficie cultivada y producción de cultivos temporales en Paraguay."

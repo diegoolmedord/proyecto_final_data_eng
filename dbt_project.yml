@@ -1,0 +1,22 @@
+name: 'proyecto_final_data_eng'
+version: '1.0.0'
+config-version: 2
+
+profile: 'proyecto_final_data_eng'
+
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+macro-paths: ["macros"]
+
+clean-targets:
+  - "target"
+  - "dbt_packages"
+
+models:
+  proyecto_final_data_eng:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

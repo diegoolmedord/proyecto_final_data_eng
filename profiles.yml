@@ -1,0 +1,9 @@
+proyecto_final_data_eng:
+  outputs:
+    dev:
+      type: duckdb
+      path: 'md:airbyte_curso'
+      extensions:
+        - motherduck
+      token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRpZWdvb2xtZWRvcmRAZ21haWwuY29tIiwibWRSZWdpb24iOiJhd3MtdXMtZWFzdC0xIiwic2Vzc2lvbiI6ImRpZWdvb2xtZWRvcmQuZ21haWwuY29tIiwicGF0IjoiUGtPdTdHWlVUT2pWUW9YdW1yX2JqWEpWTUxsalJuV1B6RzQ1UzhuRlZNcyIsInVzZXJJZCI6IjJjNDNmZWRmLTc0MjMtNDIwZi1hMTlhLWRkMWIwYjA5YjM3NCIsImlzcyI6Im1kX3BhdCIsInJlYWRPbmx5IjpmYWxzZSwidG9rZW5UeXBlIjoicmVhZF93cml0ZSIsImlhdCI6MTc3ODg4MzY4Nn0.Fdc4JCygMA9s9UwADqhZd40oXWX3zQFH1WFvZ7rF8Zw'  # <-- Poné el token acá directamente con comillas simples
+  target: dev
